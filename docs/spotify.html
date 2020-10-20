@@ -494,16 +494,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong4f3d724"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> 4f3d724 </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomAmandaRPworkflowrspotifytreee8398b33aa1ca29091f3674d13d614ba7ad05f15targetblanke8398b3a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/AmandaRP/workflowr-spotify/tree/e8398b33aa1ca29091f3674d13d614ba7ad05f15" target="_blank">e8398b3</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrong4f3d724" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomAmandaRPworkflowrspotifytreee8398b33aa1ca29091f3674d13d614ba7ad05f15targetblanke8398b3a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version 4f3d724. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/AmandaRP/workflowr-spotify/tree/e8398b33aa1ca29091f3674d13d614ba7ad05f15" target="_blank">e8398b3</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -552,10 +552,27 @@ Message
 <tbody>
 <tr>
 <td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/AmandaRP/workflowr-spotify/e8ab5f559961e5a5c5281927aa3fa5bdb2f78e02/docs/spotify.html" target="_blank">e8ab5f5</a>
+</td>
+<td>
+AmandaRP
+</td>
+<td>
+2020-10-20
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
 Rmd
 </td>
 <td>
-4f3d724
+<a href="https://github.com/AmandaRP/workflowr-spotify/blob/4f3d724842e894f47a3174e504028f79b0250d07/analysis/spotify.Rmd" target="_blank">4f3d724</a>
 </td>
 <td>
 AmandaRP
@@ -616,6 +633,43 @@ model &lt;- rpart(genre ~ ., data = spotifyTraining)
 plot(model, margin = 0.05)
 text(model)</code></pre>
 <p><img src="figure/spotify.Rmd/classification-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-classification-1">
+Past versions of classification-1.png
+</button>
+</p>
+<div id="fig-classification-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/AmandaRP/workflowr-spotify/blob/e8ab5f559961e5a5c5281927aa3fa5bdb2f78e02/docs/figure/spotify.Rmd/classification-1.png" target="_blank">e8ab5f5</a>
+</td>
+<td>
+AmandaRP
+</td>
+<td>
+2020-10-20
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>Calculate prediction accuracy of the model on the training and testing sets.</p>
 <pre class="r"><code>predictTraining &lt;- predict(model, type = &quot;class&quot;)
 (accuracyTraining &lt;- mean(spotifyTraining[, 1] == predictTraining))</code></pre>
