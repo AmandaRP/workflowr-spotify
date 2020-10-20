@@ -8,6 +8,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Welcome to my research website. Click on project below for more information:
 
-[Link to spotify analysis](spotify.html)
+* [Spotify analysis](spotify.html)
