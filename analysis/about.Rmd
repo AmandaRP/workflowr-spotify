@@ -11,3 +11,4 @@ This website was created using the [workflowr](https://github.com/jdblischak/wor
 
 * [Slides](https://docs.google.com/presentation/d/1opTQXesRyQkiJrpIcsJNsbnlnvYAddv0G7_D9dGX434/edit#slide=id.g8c023f9a4a_0_26) 
 * Presenters: Inger Fabris-Rotelli & Vebashini Naidoo
+* [GitHub repo](https://github.com/AmandaRP/workflowr-spotify)
